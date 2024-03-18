@@ -1,10 +1,12 @@
-import Footer from '@/components/Footer'
-import Image from 'next/image'
+import SuggestionPage from '@/components/body/Suggestion'
+import TopPage from '@/components/body/Top'
 
 export default function Home() {
   return (
     <main>
-      <Footer />
+      <TopPage />
+      <SuggestionPage />
+      <div className="py-[500px]"></div>
     </main>
   )
 }
