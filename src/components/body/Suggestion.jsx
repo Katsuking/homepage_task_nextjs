@@ -11,7 +11,7 @@ const SuggestionPage = () => {
       <div className="flex flex-col items-center">
         <div className="flex p-4">
           <div className="bg-yellow-300 border-black border-solid border-2 rounded-md">
-            <FaCloud size={80} width={40} />
+            <FaCloud size={80} width={40} className="p-1" />
           </div>
           <FaMobileAlt size={80} width={40} />
           <FaComputer size={80} width={40} />
