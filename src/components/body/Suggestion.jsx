@@ -9,12 +9,16 @@ const SuggestionPage = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       <div className="flex flex-col items-center">
-        <div className="flex p-4">
-          <div className="bg-yellow-300 border-black border-solid border-2 rounded-md">
+        <div className="flex p-4 space-x-2">
+          <div className="bg-blue-500 border-black border-solid border-2 rounded-md">
             <FaCloud size={80} width={40} className="p-1" />
           </div>
-          <FaMobileAlt size={80} width={40} />
-          <FaComputer size={80} width={40} />
+          <div className="bg-emerald-200 border-black border-solid border-2 rounded-md">
+            <FaMobileAlt size={80} width={40} className="p-1" />
+          </div>
+          <div className="bg-yellow-200 border-black border-solid border-2 rounded-md">
+            <FaComputer size={80} width={40} className="p-1" />
+          </div>
         </div>
         <div className="flex flex-wrap px-3">
           <p>
