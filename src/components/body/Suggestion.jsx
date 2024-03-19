@@ -38,7 +38,22 @@ const SuggestionPage = () => {
           </p>
         </div>
       </div>
-      <div>c</div>
+      <div className="flex flex-col items-center px-3">
+        <Image
+          src="/images/unific615DSC6287_TP_V.png"
+          alt="pc"
+          width={200}
+          height={150}
+          className="rounded-lg mb-2"
+        />
+        <div className="flex flex-wrap">
+          <p>
+            グループウェアを使いこなせば、
+            <span className="text-red-500">もっと組織力を強化できるのに</span>
+          </p>
+        </div>
+      </div>
+      <div>4つ目ここに追加</div>
     </div>
   )
 }
