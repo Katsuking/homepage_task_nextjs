@@ -1,5 +1,5 @@
 import React, { useDebugValue } from 'react'
-import Card from './card'
+import Card from './Card'
 
 const Price = () => {
   return (
