@@ -36,39 +36,53 @@ const Merit = () => {
       <div className="carousel rounded-box w-full mt-2">
         <div className="carousel-item w-1/2 ">
           <div className="flex flex-col">
-            <h1 className="text-center text-[40px]">オープランの場合</h1>
+            <h1 className="text-center text-[40px]">充実なアフターケア！！</h1>
             <p className="text-[25px] mt-2 mx-5 ">
-              導入だけでなく運用面もしっかり支援 トータルサービスなので、
-              導入後もしっかりとアフターケアをします。
-              <br />
-              運用のご支援はもちろん、状況に合わせて運用。
-              最適案を提案し業務支援に貢献します。aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+              トータルサービスなので、導入後もしっかりとアフターケアをします。
+              運用のご支援はもちろん、状況に合わせて運用。最適案を提案し業務支援に貢献します。
             </p>
           </div>
         </div>
         <div className="carousel-item w-1/2">
-          <div className="flex flex-col text">
+          <div className="flex flex-col">
             <h1 className="text-center text-[40px]">A社の場合</h1>
             <p className="text-[25px] mt-2 mx-5">
-              導入だけでなく運用面もしっかり支援 トータルサービスなので、
-              導入後もしっかりとアフターケアをします。
-              <br />
-              運用のご支援はもちろん、状況に合わせて運用
-              最適案を提案し業務支援に貢献します
+              textaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </p>
+          </div>
+        </div>
+        <div className="carousel-item w-1/2 ">
+          <div className="flex flex-col">
+            <h1 className="text-center text-[40px]">
+              用途に応じた多様なプラン
+            </h1>
+            <p className="text-[25px] mt-2 mx-5 "></p>
+          </div>
+        </div>
+        <div className="carousel-item w-1/2">
+          <div className="flex flex-col">
+            <h1 className="text-center text-[40px]">B社の場合</h1>
+            <p className="text-[25px] mt-2 mx-5">
+              textaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </p>
+          </div>
+        </div>
+        <div className="carousel-item w-1/2 ">
+          <div className="flex flex-col">
+            <h1 className="text-center text-[40px]">text3</h1>
+            <p className="text-[25px] mt-2 mx-5 ">
+              トータルサービスなので、導入後もしっかりとアフターケアをします。
+              運用のご支援はもちろん、状況に合わせて運用。最適案を提案し業務支援に貢献します。
             </p>
           </div>
         </div>
         <div className="carousel-item w-1/2">
-          <h1>オープランの場合</h1>
-        </div>
-        <div className="carousel-item w-1/2">
-          <h1>他社の場合</h1>
-        </div>
-        <div className="carousel-item w-1/2">
-          <h1>オープランの場合</h1>
-        </div>
-        <div className="carousel-item w-1/2">
-          <h1>他社の場合</h1>
+          <div className="flex flex-col">
+            <h1 className="text-center text-[40px]">C社の場合</h1>
+            <p className="text-[25px] mt-2 mx-5">
+              textaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            </p>
+          </div>
         </div>
       </div>
     </div>
