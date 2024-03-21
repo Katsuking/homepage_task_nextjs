@@ -66,7 +66,7 @@ const Solution = () => {
               </h2>
               <p2 className="py-6 text-center text-[20px] keep-all">
                 Microsoft
-                Teamsであればビデオ会議、資料の共有業務遂行に必要な全てを、
+                Teamsであればビデオ会議、資料の共有業務遂行に必要な全てを
                 <br />
                 一つのツールで管理できます <br />
                 シンプルで速くスマートなMicrosoftTeamsを是非ご活用ください
