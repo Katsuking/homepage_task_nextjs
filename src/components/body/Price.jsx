@@ -4,13 +4,13 @@ import Card from './Card'
 
 const Price = () => {
   return (
-    <section>
+    <section className="mt-10">
       <div className="px-10  items-center text-center">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black drop-shadow-md">
           料金プラン
         </h2>
         {/* diffを使用した表示 */}
-        <div className="md:aspect-[16/11] lg:aspect-[16/9] hidden md:diff">
+        <div className="md:aspect-[16/11] lg:aspect-[16/9] hidden md:diff rounded-box">
           <Price_oplan />
           <Price_general />
           <div className="diff-resizer"></div>
