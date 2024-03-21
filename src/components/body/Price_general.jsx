@@ -8,7 +8,7 @@ const Price_general = () => {
         {/* card */}
         <div className="px-10 h-full flex flex-col justify-center">
           <div className="h-1/6 text-center items-center">
-            <h3 className="text-5xl">general</h3>
+            <h3 className="text-5xl">GENERAL</h3>
           </div>
           <div className="className=h-5/6 justify-center items-stretch grid grid-rows-1 grid-cols-3 grid-flow-row gap-4">
             {/* 1 */}

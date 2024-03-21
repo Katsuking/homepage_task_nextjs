@@ -7,7 +7,7 @@ const Price = () => {
       <div className="px-10  items-center text-center">
         <h2 className="text-6xl font-black">料金プラン</h2>
         {/* diff */}
-        <div className="diff aspect-[16/9]">
+        <div className="diff aspect-[9/16] md:aspect-[16/9]">
           <Price_oplan />
           <Price_general />
           <div className="diff-resizer"></div>
