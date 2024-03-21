@@ -19,7 +19,9 @@ const TopPage = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">無料相談してみる</button>
+            <button className="btn border-[#00004d] text-white bg-[#00004d]">
+              無料相談してみる
+            </button>
           </div>
         </div>
       </div>
