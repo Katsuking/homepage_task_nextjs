@@ -1,11 +1,17 @@
+'use client'
 import Price_oplan from './Price_oplan'
 import Price_general from './Price_general'
 import Card from './Card'
+import { motion } from 'framer-motion'
 
 const Price = () => {
   return (
     <section className="mt-10">
-      <div className="px-10  items-center text-center">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="px-10  items-center text-center"
+      >
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-black drop-shadow-2xl">
           料金プラン
         </h2>
@@ -37,13 +43,12 @@ const Price = () => {
           />
         </div>
         {/* icons8へのリンク */}
-        <p className="text-sm text-end opacity-50">
-          Icons by
+        <div className="text-sm text-end opacity-50">
           <a href="https://icons8.com/" target="brank" rel="noopener">
-            &nbsp;Icons8
+            Icons by Icons8
           </a>
-        </p>
-      </div>
+        </div>
+      </motion.div>
     </section>
   )
 }
