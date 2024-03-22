@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Price from './Price'
 
 const Card = ({ title, price, imgurl }) => {
   return (
