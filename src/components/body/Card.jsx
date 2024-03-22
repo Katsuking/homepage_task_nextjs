@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Card = ({ title, price, imgurl }) => {
   return (
     <>
-      <div className="mt-5 card bg-base-100 shadow-xl text-oplan">
+      <div className="mt-5 card bg-base-100 shadow-xl">
         <h2 className="pt-5 md:pt-0 card-title block">{title}</h2>
         <figure className="block">
           <Image
@@ -20,8 +20,8 @@ const Card = ({ title, price, imgurl }) => {
             ￥<strong>{price}</strong>
             <p>ユーザー／月</p>
           </p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+          <div className="card-actions justify-center">
+            <p>description</p>
           </div>
         </div>
       </div>

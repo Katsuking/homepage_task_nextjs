@@ -6,7 +6,7 @@ const Price_oplan = () => {
     <div className="diff-item-2">
       <div className="bg-base-200 text-primary-content">
         {/* card */}
-        <div className="px-10 h-full flex flex-col justify-center">
+        <div className="px-10 h-full flex flex-col justify-center text-oplan">
           <div className="h-[15%] text-center items-center">
             <h3 className="pt-5 text-oplan text-5xl">OPLAN</h3>
           </div>
@@ -14,8 +14,8 @@ const Price_oplan = () => {
             <div className="justify-center items-stretch grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4">
               {/* 1 */}
               <Card
-                title="Microsoft 365
-                Business Basic"
+                title=" Microsoft 365
+                Business Basic "
                 price="800"
                 imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               />

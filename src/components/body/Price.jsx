@@ -46,6 +46,7 @@ const Price = () => {
           />
         </div>
         {/* icons8へのリンク */}
+        {/* ライセンスページＵＲＬ：https://intercom.help/icons8-7fb7577e8170/en/articles/5534926-universal-multimedia-license-agreement-for-icons8 */}
         <div className="text-sm text-end opacity-50">
           <a href="https://icons8.com/" target="brank" rel="noopener">
             Icons by Icons8
