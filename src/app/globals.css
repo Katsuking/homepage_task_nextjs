@@ -36,3 +36,11 @@ body {
     text-wrap: balance;
   }
 } */
+
+.oowaku {
+  @apply rounded-lg bg-center bg-cover bg-no-repeat mt-5 md:mt-0;
+}
+
+.title {
+  @apply text-center text-[40px] font-bold;
+}
