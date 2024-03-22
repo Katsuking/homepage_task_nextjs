@@ -11,8 +11,8 @@ const Price = () => {
         </h2>
         {/* diffを使用した表示 */}
         <div className="md:aspect-[16/11] lg:aspect-[16/9] hidden md:diff rounded-box">
-          <Price_oplan />
           <Price_general />
+          <Price_oplan />
           <div className="diff-resizer"></div>
         </div>
         {/* Cardのみの表示。他社比較との料金比較は省略 */}
@@ -36,6 +36,13 @@ const Price = () => {
             imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
           />
         </div>
+        {/* icons8へのリンク */}
+        <p className="text-sm text-end opacity-50">
+          Icons by
+          <a href="https://icons8.com/" target="brank" rel="noopener">
+            &nbsp;Icons8
+          </a>
+        </p>
       </div>
     </section>
   )

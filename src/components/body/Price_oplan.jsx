@@ -3,12 +3,12 @@ import Card from './Card'
 
 const Price_oplan = () => {
   return (
-    <div className="diff-item-1">
-      <div className="bg-primary text-primary-content">
+    <div className="diff-item-2">
+      <div className="bg-base-200 text-primary-content">
         {/* card */}
         <div className="px-10 h-full flex flex-col justify-center">
           <div className="h-[15%] text-center items-center">
-            <h3 className="text-5xl ">OPLAN</h3>
+            <h3 className="pt-5 text-oplan text-5xl">OPLAN</h3>
           </div>
           <div className="h-[85%]">
             <div className="justify-center items-stretch grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4">

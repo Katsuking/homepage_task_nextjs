@@ -3,12 +3,12 @@ import Card from './Card'
 
 const Price_general = () => {
   return (
-    <div className="diff-item-2">
-      <div className="bg-base-200 text-primary-content">
+    <div className="diff-item-1">
+      <div className="bg-primary text-primary-content">
         {/* card */}
         <div className="px-10 h-full flex flex-col justify-center">
           <div className="h-[15%] text-center items-center">
-            <h3 className="text-5xl">GENERAL</h3>
+            <h3 className="pt-5 text-gray-200 text-5xl">GENERAL</h3>
           </div>
           <div className="h-[85%] justify-center items-stretch grid grid-rows-1 grid-cols-3 grid-flow-row gap-4">
             {/* 1 */}
