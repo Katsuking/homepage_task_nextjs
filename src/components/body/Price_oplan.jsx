@@ -10,25 +10,27 @@ const Price_oplan = () => {
           <div className="h-[15%] text-center items-center">
             <h3 className="text-5xl ">OPLAN</h3>
           </div>
-          <div className="className=h-[85%]">
-            {/* Carouselの挿入 */}
+          <div className="h-[85%]">
             <div className="justify-center items-stretch grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4">
               {/* 1 */}
               <Card
-                title="sample"
-                description="sample"
+                title="Microsoft 365
+                Business Basic"
+                price="800"
                 imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               />
               {/* 2 */}
               <Card
-                title="sample"
-                description="If a dog chews shoes whose shoes does he choose?"
+                title="Microsoft 365
+                Business Standard"
+                price="1360"
                 imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               />
               {/* 3 */}
               <Card
-                title="sample"
-                description="If a dog chews shoes whose shoes does he choose?"
+                title="Microsoft 365
+                Business Premium"
+                price="2390"
                 imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
               />
             </div>
