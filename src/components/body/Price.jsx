@@ -1,4 +1,7 @@
 'use client'
+import dynamic from 'next/dynamic'
+// How to solve the Hydration error ? ↓
+// https://rahul3526.hashnode.dev/solving-hydration-error-in-reactjsnextjs#heading-how-to-solve-the-hydration-error
 import Price_oplan from './Price_oplan'
 import Price_general from './Price_general'
 import Card from './Card'
@@ -53,4 +56,4 @@ const Price = () => {
   )
 }
 
-export default Price
+export default dynamic(() => Promise.resolve(Price), { ssr: false })
