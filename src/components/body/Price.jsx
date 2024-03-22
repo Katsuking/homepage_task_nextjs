@@ -30,7 +30,7 @@ const Price = () => {
             title="Microsoft 365
             Business Basic"
             price="800"
-            imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            imgurl="icons/excel-icon.svg"
           />
           <Card
             title="Microsoft 365
