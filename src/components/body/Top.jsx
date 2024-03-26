@@ -13,7 +13,7 @@ const TopPage = () => {
             <h1 className="mb-5 text-2xl font-bold text-start">
               <span className="font-bold">オープランで</span>
               <br />
-              <span className="sm:ml-8">Microsoft365の導入はじめませんか?</span>
+              <span className="sm:ml-7">Microsoft365の導入はじめませんか?</span>
             </h1>
             <p className="mb-5">
               クラウドベースのサービスであるため、どこからでもアクセスが可能です。
