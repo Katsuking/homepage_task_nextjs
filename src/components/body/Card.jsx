@@ -30,7 +30,7 @@ const Card = ({ title, price, imgUrls }) => {
             <p>ユーザー／月</p>
           </p>
           <div className="card-actions justify-center">
-            <p>description</p>
+            <p></p>
           </div>
         </div>
       </div>
