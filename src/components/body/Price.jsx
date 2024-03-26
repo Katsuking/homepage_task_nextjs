@@ -8,10 +8,50 @@ import Card from './Card'
 import { motion } from 'framer-motion'
 
 const Price = () => {
-  const imgUrls = [
+  const oplan_imgUrls1 = [
     { url: 'icons/excel-icon.svg' },
     { url: 'icons/excel-icon.svg' },
     { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+  ]
+  const oplan_imgUrls2 = [
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+  ]
+  const oplan_imgUrls3 = [
+    { url: 'icons/windows11-icon.svg' },
+    { url: 'icons/windows11-icon.svg' },
+    { url: 'icons/windows11-icon.svg' },
+    { url: 'icons/windows11-icon.svg' },
+    { url: 'icons/windows11-icon.svg' },
+    { url: 'icons/windows11-icon.svg' },
+  ]
+  const general_imgUrls1 = [
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+  ]
+  const general_imgUrls2 = [
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+  ]
+  const general_imgUrls3 = [
+    { url: 'icons/publisher-icon.svg' },
+    { url: 'icons/publisher-icon.svg' },
+    { url: 'icons/publisher-icon.svg' },
     { url: 'icons/excel-icon.svg' },
     { url: 'icons/excel-icon.svg' },
     { url: 'icons/excel-icon.svg' },
@@ -28,8 +68,16 @@ const Price = () => {
         </h2>
         {/* diffを使用して、オープランと一般的な値段を表示 */}
         <div className="md:aspect-[16/11] lg:aspect-[16/9] hidden md:diff rounded-box">
-          <Price_general />
-          <Price_oplan />
+          <Price_general
+            imgUrls1={general_imgUrls1}
+            imgUrls2={general_imgUrls2}
+            imgUrls3={general_imgUrls3}
+          />
+          <Price_oplan
+            imgUrls1={oplan_imgUrls1}
+            imgUrls2={oplan_imgUrls2}
+            imgUrls3={oplan_imgUrls3}
+          />
           <div className="diff-resizer"></div>
         </div>
         {/* スマホ幅ではオープランのみ表示 */}
@@ -38,20 +86,19 @@ const Price = () => {
             title="Microsoft 365
             Business Basic"
             price="800"
-            imgUrls={imgUrls}
-            Url1="icons/excel-icon.svg"
+            imgUrls={oplan_imgUrls1}
           />
           <Card
             title="Microsoft 365
             Business Standard"
             price="1360"
-            Url1="icons/excel-icon.svg"
+            imgUrls={oplan_imgUrls2}
           />
           <Card
             title="Microsoft 365
             Business Premium"
             price="2390"
-            Url1="icons/excel-icon.svg"
+            imgUrls={oplan_imgUrls3}
           />
         </div>
         {/* icons8へのリンク */}

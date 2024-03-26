@@ -1,10 +1,10 @@
 import React from 'react'
 import Card from './Card'
 
-const Price_oplan = () => {
+const Price_oplan = ({ imgUrls1, imgUrls2, imgUrls3 }) => {
   return (
     <div className="diff-item-2">
-      <div className="bg-base-200 text-primary-content">
+      <div className="bg-pink-300 text-primary-content">
         {/* card */}
         <div className="px-10 h-full flex flex-col justify-center text-oplan">
           <div className="h-[15%] text-center items-center">
@@ -17,54 +17,21 @@ const Price_oplan = () => {
                 title=" Microsoft 365
                 Business Basic "
                 price="800"
-                url1="icons/excel-icon.svg"
-                url2="icons/excel-icon.svg"
-                url3="icons/excel-icon.svg"
-                url4="icons/excel-icon.svg"
-                url5="icons/excel-icon.svg"
-                url6="icons/excel-icon.svg"
-                url7="icons/excel-icon.svg"
-                url8="icons/excel-icon.svg"
-                url9="icons/excel-icon.svg"
-                url10="icons/excel-icon.svg"
-                url11="icons/excel-icon.svg"
-                url12="icons/excel-icon.svg"
+                imgUrls={imgUrls1 ? imgUrls1 : null}
               />
               {/* 2 */}
               <Card
                 title="Microsoft 365
                 Business Standard"
                 price="1360"
-                url1="icons/excel-icon.svg"
-                url2="icons/excel-icon.svg"
-                url3="icons/excel-icon.svg"
-                url4="icons/excel-icon.svg"
-                url5="icons/excel-icon.svg"
-                url6="icons/excel-icon.svg"
-                url7="icons/excel-icon.svg"
-                url8="icons/excel-icon.svg"
-                url9="icons/excel-icon.svg"
-                url10="icons/excel-icon.svg"
-                url11="icons/excel-icon.svg"
-                url12="icons/excel-icon.svg"
+                imgUrls={imgUrls2 ? imgUrls2 : null}
               />
               {/* 3 */}
               <Card
                 title="Microsoft 365
                 Business Premium"
                 price="2390"
-                url1="icons/excel-icon.svg"
-                url2="icons/excel-icon.svg"
-                url3="icons/excel-icon.svg"
-                url4="icons/excel-icon.svg"
-                url5="icons/excel-icon.svg"
-                url6="icons/excel-icon.svg"
-                url7="icons/excel-icon.svg"
-                url8="icons/excel-icon.svg"
-                url9="icons/excel-icon.svg"
-                url10="icons/excel-icon.svg"
-                url11="icons/excel-icon.svg"
-                url12="icons/excel-icon.svg"
+                imgUrls={imgUrls3 ? imgUrls3 : null}
               />
             </div>
           </div>

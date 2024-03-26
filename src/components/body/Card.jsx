@@ -1,25 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Card = ({
-  title,
-  price,
-  imgUrls,
-  url1,
-  url2,
-  url3,
-  url4,
-  url5,
-  url6,
-  url7,
-  url8,
-  url9,
-  url10,
-  url11,
-  url12,
-}) => {
+const Card = ({ title, price, imgUrls }) => {
   const urls = imgUrls
-
   return (
     <>
       <div className="mt-5 card bg-base-100 shadow-xl">
