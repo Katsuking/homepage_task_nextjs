@@ -18,31 +18,64 @@ const Price = () => {
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-black drop-shadow-2xl">
           料金プラン
         </h2>
-        {/* diffを使用した表示 */}
+        {/* diffを使用して、オープランと一般的な値段を表示 */}
         <div className="md:aspect-[16/11] lg:aspect-[16/9] hidden md:diff rounded-box">
           <Price_general />
           <Price_oplan />
           <div className="diff-resizer"></div>
         </div>
-        {/* Cardのみの表示。他社比較との料金比較は省略 */}
+        {/* スマホ幅ではオープランのみ表示 */}
         <div className="md:hidden">
           <Card
             title="Microsoft 365
             Business Basic"
             price="800"
-            imgurl="icons/excel-icon.svg"
+            url1="icons/excel-icon.svg"
+            url2="icons/excel-icon.svg"
+            url3="icons/excel-icon.svg"
+            url4="icons/excel-icon.svg"
+            url5="icons/excel-icon.svg"
+            url6=""
+            url7=""
+            url8=""
+            url9=""
+            url10=""
+            url11=""
+            url12=""
           />
           <Card
             title="Microsoft 365
             Business Standard"
             price="1360"
-            imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            url1="icons/excel-icon.svg"
+            url2="icons/excel-icon.svg"
+            url3="icons/excel-icon.svg"
+            url4="icons/excel-icon.svg"
+            url5="icons/excel-icon.svg"
+            url6="icons/excel-icon.svg"
+            url7=""
+            url8=""
+            url9=""
+            url10=""
+            url11=""
+            url12=""
           />
           <Card
             title="Microsoft 365
             Business Premium"
             price="2390"
-            imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+            url1="icons/excel-icon.svg"
+            url2="icons/excel-icon.svg"
+            url3="icons/excel-icon.svg"
+            url4="icons/excel-icon.svg"
+            url5="icons/excel-icon.svg"
+            url6="icons/excel-icon.svg"
+            url7="icons/excel-icon.svg"
+            url8="icons/excel-icon.svg"
+            url9="icons/excel-icon.svg"
+            url10="icons/excel-icon.svg"
+            url11="icons/excel-icon.svg"
+            url12="icons/excel-icon.svg"
           />
         </div>
         {/* icons8へのリンク */}

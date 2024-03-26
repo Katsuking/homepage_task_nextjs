@@ -1,7 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Card = ({ title, price, imgurl }) => {
+const Card = ({
+  title,
+  price,
+  url1,
+  url2,
+  url3,
+  url4,
+  url5,
+  url6,
+  url7,
+  url8,
+  url9,
+  url10,
+  url11,
+  url12,
+}) => {
   return (
     <>
       <div className="mt-5 card bg-base-100 shadow-xl">
@@ -11,8 +26,8 @@ const Card = ({ title, price, imgurl }) => {
             <div className="content-center items-center">
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url1}
+                alt="img1"
                 width="500"
                 height="500"
               />
@@ -20,8 +35,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url2}
+                alt="img2"
                 width="500"
                 height="500"
               />
@@ -29,8 +44,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url3}
+                alt="img3"
                 width="500"
                 height="500"
               />
@@ -38,8 +53,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url4}
+                alt="img4"
                 width="500"
                 height="500"
               />
@@ -47,8 +62,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url5}
+                alt="img5"
                 width="500"
                 height="500"
               />
@@ -56,8 +71,8 @@ const Card = ({ title, price, imgurl }) => {
             <div className="content-center items-center">
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url6}
+                alt="img6"
                 width="500"
                 height="500"
               />
@@ -65,8 +80,8 @@ const Card = ({ title, price, imgurl }) => {
             <div className="content-center items-center">
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url7}
+                alt="img7"
                 width="500"
                 height="500"
               />
@@ -74,8 +89,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url8}
+                alt="img8"
                 width="500"
                 height="500"
               />
@@ -83,8 +98,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url9}
+                alt="img9"
                 width="500"
                 height="500"
               />
@@ -92,8 +107,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url10}
+                alt="img10"
                 width="500"
                 height="500"
               />
@@ -101,8 +116,8 @@ const Card = ({ title, price, imgurl }) => {
             <div>
               <Image
                 className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url11}
+                alt="img11"
                 width="500"
                 height="500"
               />
@@ -110,8 +125,8 @@ const Card = ({ title, price, imgurl }) => {
             <div className="content-center items-center">
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
-                src={imgurl}
-                alt="Shoes"
+                src={url12}
+                alt="img12"
                 width="500"
                 height="500"
               />

@@ -17,21 +17,54 @@ const Price_oplan = () => {
                 title=" Microsoft 365
                 Business Basic "
                 price="800"
-                imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                url1="icons/excel-icon.svg"
+                url2="icons/excel-icon.svg"
+                url3="icons/excel-icon.svg"
+                url4="icons/excel-icon.svg"
+                url5="icons/excel-icon.svg"
+                url6="icons/excel-icon.svg"
+                url7="icons/excel-icon.svg"
+                url8="icons/excel-icon.svg"
+                url9="icons/excel-icon.svg"
+                url10="icons/excel-icon.svg"
+                url11="icons/excel-icon.svg"
+                url12="icons/excel-icon.svg"
               />
               {/* 2 */}
               <Card
                 title="Microsoft 365
                 Business Standard"
                 price="1360"
-                imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                url1="icons/excel-icon.svg"
+                url2="icons/excel-icon.svg"
+                url3="icons/excel-icon.svg"
+                url4="icons/excel-icon.svg"
+                url5="icons/excel-icon.svg"
+                url6="icons/excel-icon.svg"
+                url7="icons/excel-icon.svg"
+                url8="icons/excel-icon.svg"
+                url9="icons/excel-icon.svg"
+                url10="icons/excel-icon.svg"
+                url11="icons/excel-icon.svg"
+                url12="icons/excel-icon.svg"
               />
               {/* 3 */}
               <Card
                 title="Microsoft 365
                 Business Premium"
                 price="2390"
-                imgurl="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                url1="icons/excel-icon.svg"
+                url2="icons/excel-icon.svg"
+                url3="icons/excel-icon.svg"
+                url4="icons/excel-icon.svg"
+                url5="icons/excel-icon.svg"
+                url6="icons/excel-icon.svg"
+                url7="icons/excel-icon.svg"
+                url8="icons/excel-icon.svg"
+                url9="icons/excel-icon.svg"
+                url10="icons/excel-icon.svg"
+                url11="icons/excel-icon.svg"
+                url12="icons/excel-icon.svg"
               />
             </div>
           </div>
