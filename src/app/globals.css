@@ -44,3 +44,11 @@ body {
 .title {
   @apply text-center text-[40px] font-bold;
 }
+
+.nakami {
+  @apply text-[25px] mt-2 mx-5;
+}
+
+.bg {
+  @apply bg-gray-300 rounded-lg bg-opacity-70;
+}
