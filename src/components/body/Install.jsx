@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const InstallPage = () => {
   return (
-    <div className="my-10">
+    <div className="my-10 sm:mx-10">
       <div className="card lg:card-side bg-base-100 shadow-xl">
         <figure>
           <Image
@@ -41,7 +41,7 @@ const InstallPage = () => {
             </p>
           </ul>
           <div className="card-actions justify-end pr-4">
-            <button className="btn btn-primary hover:bg-[#5642ad] hover:border-[#5642ad]">
+            <button className="btn bg-[#00004d] text-white hover:bg-[#5642ad] hover:border-[#5642ad]">
               もっと知りたい
             </button>
           </div>
