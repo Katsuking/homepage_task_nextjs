@@ -69,7 +69,7 @@ const SuggestionPage = () => {
           />
           <div>
             <p>
-              時間と場所を選ばない場所で
+              時間と場所を選ばず
               <span className="text-red-500">BCP対策もしっかりしたい</span>
             </p>
           </div>

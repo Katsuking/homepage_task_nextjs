@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Card = ({ title, description, imgurl }) => {
   return (
     <div className="card bg-base-100 shadow-xl">
-      <figure>
-        <img src={imgurl} alt="Shoes" />
+      <figure className="block">
+        <Image src={imgurl} alt="Shoes" width="500" height="250" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
