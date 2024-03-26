@@ -17,6 +17,7 @@ const Price = () => {
     { url: 'icons/exchange-icon.svg' },
     { url: 'icons/onedrive-icon.svg' },
     { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/visio-icon.svg' },
   ]
   const oplan_imgUrls2 = [
     { url: 'icons/word-icon.svg' },
@@ -27,8 +28,10 @@ const Price = () => {
     { url: 'icons/exchange-icon.svg' },
     { url: 'icons/onedrive-icon.svg' },
     { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/visio-icon.svg' },
     { url: 'icons/access-icon.svg' },
     { url: 'icons/publisher-icon.svg' },
+    { url: 'icons/edge-new-icon.svg' },
   ]
   const oplan_imgUrls3 = [
     { url: 'icons/word-icon.svg' },
@@ -39,8 +42,10 @@ const Price = () => {
     { url: 'icons/exchange-icon.svg' },
     { url: 'icons/onedrive-icon.svg' },
     { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/visio-icon.svg' },
     { url: 'icons/access-icon.svg' },
     { url: 'icons/publisher-icon.svg' },
+    { url: 'icons/edge-new-icon.svg' },
     { url: 'icons/intune-icon.svg' },
     { url: 'icons/azure-icon.svg' },
     { url: 'icons/visual-studio-icon.svg' },
@@ -92,7 +97,7 @@ const Price = () => {
           料金プラン
         </h2>
         {/* diffを使用して、オープランと一般的な値段を表示 */}
-        <div className="md:aspect-[16/12] lg:aspect-[16/11] hidden md:diff rounded-box">
+        <div className="mt-3 md:aspect-[16/13] lg:aspect-[16/11] hidden md:diff rounded-box">
           <Price_general
             imgUrls1={general_imgUrls1}
             imgUrls2={general_imgUrls2}
