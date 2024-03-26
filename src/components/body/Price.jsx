@@ -8,6 +8,79 @@ import Card from './Card'
 import { motion } from 'framer-motion'
 
 const Price = () => {
+  const oplan_imgUrls1 = [
+    { url: 'icons/word-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/powerpoint-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/exchange-icon.svg' },
+    { url: 'icons/onedrive-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+  ]
+  const oplan_imgUrls2 = [
+    { url: 'icons/word-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/powerpoint-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/exchange-icon.svg' },
+    { url: 'icons/onedrive-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/access-icon.svg' },
+    { url: 'icons/publisher-icon.svg' },
+  ]
+  const oplan_imgUrls3 = [
+    { url: 'icons/word-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/powerpoint-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/exchange-icon.svg' },
+    { url: 'icons/onedrive-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/access-icon.svg' },
+    { url: 'icons/publisher-icon.svg' },
+    { url: 'icons/intune-icon.svg' },
+    { url: 'icons/azure-icon.svg' },
+    { url: 'icons/visual-studio-icon.svg' },
+  ]
+  const general_imgUrls1 = [
+    { url: 'icons/word-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/powerpoint-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/exchange-icon.svg' },
+    { url: 'icons/onedrive-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+  ]
+  const general_imgUrls2 = [
+    { url: 'icons/word-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/powerpoint-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/exchange-icon.svg' },
+    { url: 'icons/onedrive-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/access-icon.svg' },
+    { url: 'icons/publisher-icon.svg' },
+  ]
+  const general_imgUrls3 = [
+    { url: 'icons/word-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/powerpoint-icon.svg' },
+    { url: 'icons/teams-icon.svg' },
+    { url: 'icons/outlook-icon.svg' },
+    { url: 'icons/exchange-icon.svg' },
+    { url: 'icons/onedrive-icon.svg' },
+    { url: 'icons/sharepoint-icon.svg' },
+    { url: 'icons/access-icon.svg' },
+    { url: 'icons/publisher-icon.svg' },
+    { url: 'icons/intune-icon.svg' },
+    { url: 'icons/azure-icon.svg' },
+  ]
   return (
     <section className="mt-10">
       <motion.div
@@ -19,9 +92,17 @@ const Price = () => {
           料金プラン
         </h2>
         {/* diffを使用して、オープランと一般的な値段を表示 */}
-        <div className="md:aspect-[16/11] lg:aspect-[16/9] hidden md:diff rounded-box">
-          <Price_general />
-          <Price_oplan />
+        <div className="md:aspect-[16/12] lg:aspect-[16/11] hidden md:diff rounded-box">
+          <Price_general
+            imgUrls1={general_imgUrls1}
+            imgUrls2={general_imgUrls2}
+            imgUrls3={general_imgUrls3}
+          />
+          <Price_oplan
+            imgUrls1={oplan_imgUrls1}
+            imgUrls2={oplan_imgUrls2}
+            imgUrls3={oplan_imgUrls3}
+          />
           <div className="diff-resizer"></div>
         </div>
         {/* スマホ幅ではオープランのみ表示 */}
@@ -30,52 +111,19 @@ const Price = () => {
             title="Microsoft 365
             Business Basic"
             price="800"
-            url1="icons/excel-icon.svg"
-            url2="icons/excel-icon.svg"
-            url3="icons/excel-icon.svg"
-            url4="icons/excel-icon.svg"
-            url5="icons/excel-icon.svg"
-            url6=""
-            url7=""
-            url8=""
-            url9=""
-            url10=""
-            url11=""
-            url12=""
+            imgUrls={oplan_imgUrls1}
           />
           <Card
             title="Microsoft 365
             Business Standard"
             price="1360"
-            url1="icons/excel-icon.svg"
-            url2="icons/excel-icon.svg"
-            url3="icons/excel-icon.svg"
-            url4="icons/excel-icon.svg"
-            url5="icons/excel-icon.svg"
-            url6="icons/excel-icon.svg"
-            url7=""
-            url8=""
-            url9=""
-            url10=""
-            url11=""
-            url12=""
+            imgUrls={oplan_imgUrls2}
           />
           <Card
             title="Microsoft 365
             Business Premium"
             price="2390"
-            url1="icons/excel-icon.svg"
-            url2="icons/excel-icon.svg"
-            url3="icons/excel-icon.svg"
-            url4="icons/excel-icon.svg"
-            url5="icons/excel-icon.svg"
-            url6="icons/excel-icon.svg"
-            url7="icons/excel-icon.svg"
-            url8="icons/excel-icon.svg"
-            url9="icons/excel-icon.svg"
-            url10="icons/excel-icon.svg"
-            url11="icons/excel-icon.svg"
-            url12="icons/excel-icon.svg"
+            imgUrls={oplan_imgUrls3}
           />
         </div>
         {/* icons8へのリンク */}
