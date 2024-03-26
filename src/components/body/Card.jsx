@@ -19,6 +19,16 @@ const Card = ({
 }) => {
   return (
     <>
+      {/* {imgUrls.map((url, index) => (
+                <Image
+                  key={index}
+                  className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                  src={url}
+                  alt="img${index}"
+                  width="500"
+                  height="500"
+                />
+              ))} */}
       <div className="mt-5 card bg-base-100 shadow-xl">
         <h2 className="pt-5 md:pt-0 card-title block">{title}</h2>
         <div className="rounded-xl">
@@ -27,43 +37,43 @@ const Card = ({
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url1}
-                alt="img1"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url2}
-                alt="img2"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url3}
-                alt="img3"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url4}
-                alt="img4"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url5}
-                alt="img5"
+                alt="img"
                 width="500"
                 height="500"
               />
@@ -72,7 +82,7 @@ const Card = ({
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url6}
-                alt="img6"
+                alt="img"
                 width="500"
                 height="500"
               />
@@ -81,43 +91,43 @@ const Card = ({
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url7}
-                alt="img7"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url8}
-                alt="img8"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url9}
-                alt="img9"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url10}
-                alt="img10"
+                alt="img"
                 width="500"
                 height="500"
               />
             </div>
-            <div>
+            <div className="content-center items-center">
               <Image
-                className=" mt-0 sm:mt-5 md:rounded-none md:mt-0"
+                className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url11}
-                alt="img11"
+                alt="img"
                 width="500"
                 height="500"
               />
@@ -126,7 +136,7 @@ const Card = ({
               <Image
                 className="mt-0 sm:mt-5 md:rounded-none md:mt-0"
                 src={url12}
-                alt="img12"
+                alt="img"
                 width="500"
                 height="500"
               />

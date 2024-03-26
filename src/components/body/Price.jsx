@@ -8,6 +8,15 @@ import Card from './Card'
 import { motion } from 'framer-motion'
 
 const Price = () => {
+  const imgUrls = [
+    'icons/excel-icon.svg',
+    'icons/excel-icon.svg',
+    'icons/excel-icon.svg',
+    'icons/excel-icon.svg',
+    'icons/excel-icon.svg',
+    'icons/excel-icon.svg',
+    'icons/excel-icon.svg',
+  ]
   return (
     <section className="mt-10">
       <motion.div
@@ -30,52 +39,19 @@ const Price = () => {
             title="Microsoft 365
             Business Basic"
             price="800"
-            url1="icons/excel-icon.svg"
-            url2="icons/excel-icon.svg"
-            url3="icons/excel-icon.svg"
-            url4="icons/excel-icon.svg"
-            url5="icons/excel-icon.svg"
-            url6=""
-            url7=""
-            url8=""
-            url9=""
-            url10=""
-            url11=""
-            url12=""
+            Url1="icons/excel-icon.svg"
           />
           <Card
             title="Microsoft 365
             Business Standard"
             price="1360"
-            url1="icons/excel-icon.svg"
-            url2="icons/excel-icon.svg"
-            url3="icons/excel-icon.svg"
-            url4="icons/excel-icon.svg"
-            url5="icons/excel-icon.svg"
-            url6="icons/excel-icon.svg"
-            url7=""
-            url8=""
-            url9=""
-            url10=""
-            url11=""
-            url12=""
+            Url1="icons/excel-icon.svg"
           />
           <Card
             title="Microsoft 365
             Business Premium"
             price="2390"
-            url1="icons/excel-icon.svg"
-            url2="icons/excel-icon.svg"
-            url3="icons/excel-icon.svg"
-            url4="icons/excel-icon.svg"
-            url5="icons/excel-icon.svg"
-            url6="icons/excel-icon.svg"
-            url7="icons/excel-icon.svg"
-            url8="icons/excel-icon.svg"
-            url9="icons/excel-icon.svg"
-            url10="icons/excel-icon.svg"
-            url11="icons/excel-icon.svg"
-            url12="icons/excel-icon.svg"
+            Url1="icons/excel-icon.svg"
           />
         </div>
         {/* icons8へのリンク */}
