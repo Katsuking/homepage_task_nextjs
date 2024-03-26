@@ -21,7 +21,7 @@ const TopPage = () => {
           </div>
           <div className="content-center">
             <button className="btn border-[#00004d] text-white bg-[#00004d]">
-              Let's get started!
+              Let&#39;s get started!
             </button>
           </div>
         </div>
