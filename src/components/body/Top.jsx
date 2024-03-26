@@ -17,11 +17,9 @@ const TopPage = () => {
             </h1>
             <p className="mb-5">
               クラウドベースのサービスであるため、どこからでもアクセスが可能です。
-              <br />
-              また、Word、Excel、PowerPointなど、おなじみのアプリケーションを最新の状態で利用でき、安全な環境での作業を保証します。
             </p>
             <button className="btn border-[#00004d] text-white bg-[#00004d]">
-              無料相談してみる
+              Let's get started!
             </button>
           </div>
         </div>
