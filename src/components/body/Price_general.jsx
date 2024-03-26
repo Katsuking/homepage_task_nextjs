@@ -10,7 +10,7 @@ const Price_general = ({ imgUrls1, imgUrls2, imgUrls3 }) => {
           <div className="h-[10%] text-center items-center">
             <h3 className="pt-5 text-gray-500 text-5xl">GENERAL</h3>
           </div>
-          <div className="h-[90%] text-gray-700">
+          <div className="h-[90%] mt-3 text-gray-700">
             <div className=" justify-center items-stretch grid grid-rows-1 grid-cols-3 grid-flow-row gap-4">
               {/* 1 */}
               <Card
