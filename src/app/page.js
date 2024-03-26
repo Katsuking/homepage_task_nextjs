@@ -14,7 +14,6 @@ export default function Home() {
       <InstallPage />
       <Price />
       <Merit />
-      <div className="py-[500px]"></div>
     </main>
   )
 }
