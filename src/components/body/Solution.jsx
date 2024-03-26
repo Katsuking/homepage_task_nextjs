@@ -3,11 +3,15 @@ import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Carousel, Typography, Button } from '@material-tailwind/react'
+
+
+
 import { FcManager } from 'react-icons/fc'
 import { FaLock } from 'react-icons/fa'
 import { IoIosLock } from 'react-icons/io'
 import { SiMicrosoftteams } from 'react-icons/si'
 import { BsMicrosoftTeams } from 'react-icons/bs'
+
 
 const Solution = () => {
   return (
