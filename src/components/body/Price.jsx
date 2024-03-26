@@ -9,13 +9,12 @@ import { motion } from 'framer-motion'
 
 const Price = () => {
   const imgUrls = [
-    'icons/excel-icon.svg',
-    'icons/excel-icon.svg',
-    'icons/excel-icon.svg',
-    'icons/excel-icon.svg',
-    'icons/excel-icon.svg',
-    'icons/excel-icon.svg',
-    'icons/excel-icon.svg',
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
+    { url: 'icons/excel-icon.svg' },
   ]
   return (
     <section className="mt-10">
@@ -39,6 +38,7 @@ const Price = () => {
             title="Microsoft 365
             Business Basic"
             price="800"
+            imgUrls={imgUrls}
             Url1="icons/excel-icon.svg"
           />
           <Card
