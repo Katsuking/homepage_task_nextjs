@@ -36,3 +36,19 @@ body {
     text-wrap: balance;
   }
 } */
+
+.oowaku {
+  @apply rounded-lg bg-center bg-cover bg-no-repeat mt-5 md:mt-0;
+}
+
+.title {
+  @apply text-center text-[40px] font-bold;
+}
+
+.nakami {
+  @apply text-[25px] mt-2 mx-5;
+}
+
+.bg {
+  @apply bg-gray-300 rounded-lg bg-opacity-70;
+}
