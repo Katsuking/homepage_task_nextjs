@@ -8,7 +8,7 @@ const TopPage = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-neutral-content">
+        <div className="hero-content text-neutral-content flex-col">
           <div className="max-w-md">
             <h1 className="mb-5 text-2xl font-bold text-start">
               <span className="font-bold">オープランで</span>
@@ -18,6 +18,8 @@ const TopPage = () => {
             <p className="mb-5">
               クラウドベースのサービスであるため、どこからでもアクセスが可能です。
             </p>
+          </div>
+          <div className="content-center">
             <button className="btn border-[#00004d] text-white bg-[#00004d]">
               Let's get started!
             </button>
